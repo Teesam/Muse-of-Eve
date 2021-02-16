@@ -1,0 +1,14 @@
+#content-p{
+    width: 90%;
+    text-align: left;
+    color: rgb(92, 106, 109);
+}
+
+#more{
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    outline: none;
+    margin-top: .5rem;
+}

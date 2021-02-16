@@ -1,0 +1,29 @@
+#upload-area{
+    border: 1px solid rgb(177, 118, 177);
+    margin: unset;
+    border-radius: 5px;
+}
+
+#upload-content-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+#upload-content-btn{
+    margin-top: 2rem;
+    color: white;
+    background-color: rgb(107, 75, 107);
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    transition: .2s;
+    margin-bottom: 8rem;
+}
+
+#upload-content-btn:hover{
+    color: rgb(107, 75, 107);
+    background-color: rgb(233, 169, 233);
+    border-radius: 5px;
+    
+}

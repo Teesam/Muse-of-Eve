@@ -1,0 +1,36 @@
+.Upload-content-file{
+    font-family: 'nunito', sans-serif;
+}
+
+#upload-file-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 8rem 0;
+}
+
+#file-more{
+    color:  rgb(102, 66, 102);
+    background-color: rgb(236, 168, 236);
+    border: 1px solid rgb(236, 168, 236);
+    padding: .2rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: .4s all ease-in-out;
+    box-shadow: 1px 1px 2px 0 rgb(156, 102, 156);
+}
+
+#file-more:hover{
+    background: linear-gradient(90deg, rgb(236, 168, 236), white);
+    border: 1px solid rgb(236, 168, 236);;
+}
+
+.Filer{
+    border: none;
+    border: solid 1px rgb(253, 182, 253);
+    border-radius: 5px;
+    outline: none;
+    cursor: pointer;
+}

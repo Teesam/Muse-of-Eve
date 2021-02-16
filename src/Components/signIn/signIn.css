@@ -1,0 +1,41 @@
+.SignIn{
+    height: 100vh;
+    font-family: 'nunito';
+}
+
+.SignIn-btn{
+    padding: .5rem 1rem;
+    color: white;
+    background-color: rgb(158, 121, 149);
+    border: none;
+    border-radius: 5px;
+    margin-top: 7rem;
+    transition: .2s;
+}
+
+.SignIn-btn:hover{
+    color: rgb(97, 70, 90);
+    background-color: rgb(247, 196, 234);
+}
+
+#signIn-input{
+    margin: 0 auto;
+    margin-bottom: 2rem;
+    margin-top: .5rem;
+}
+
+#signIn-form{
+    margin: auto;
+    margin-bottom: 13rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+.SignIn-header-div{
+    display: flex;
+    flex-direction: column;
+}
+
+#signIn-header{
+    margin-bottom: 5rem;
+}

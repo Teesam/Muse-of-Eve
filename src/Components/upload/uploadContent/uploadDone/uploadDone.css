@@ -1,0 +1,18 @@
+.Upload-done{
+    font-family: 'nunito', sans-serif;
+}
+
+#upload-done-div{
+    margin: 13.5rem 0;
+}
+
+#appreciation{
+    margin-bottom: 2rem;
+}
+
+#upload-done-btn{
+    color: white;
+    background-color: rgb(119, 76, 119);
+    padding: .5rem 1rem;
+    border-radius: 5px;
+}

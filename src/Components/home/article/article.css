@@ -1,0 +1,52 @@
+.Article{
+    display: flex;
+    flex-direction: column;
+}
+
+.Article-title{
+    font-family: 'nunito';
+    font-weight: bolder;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 5rem;
+    text-align: start;
+
+}
+
+.Article-content{
+    font-family: 'nunito';
+    width: 60%;
+    text-align: left;
+    margin: 0 auto;
+    margin-top: 2rem;
+    line-height: 2rem;
+}
+
+#loader{
+    color: rgb(84, 169, 196);
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
+
+#loader:hover{
+    color: red;
+}
+
+.Article-info{
+    display: flex;
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    justify-content: flex-end;
+    color: rgb(136, 132, 132);
+}
+
+.Author{
+    color: black;
+    margin: 0 2rem;
+}
+
+.Date{
+    margin-left: .5rem;
+}
