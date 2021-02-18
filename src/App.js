@@ -41,7 +41,7 @@ const App = () => {
 
       <Route path = '/uploaddone' exact strict component = {UploadDone} />
 
-      <Route path = './admin' exact strict component = {Admin} />
+      <Route path = '/admin' exact strict component = {Admin} />
       
       <Route path = '/register' exact strict component = {Register} />
 

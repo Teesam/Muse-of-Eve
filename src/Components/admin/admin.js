@@ -12,9 +12,9 @@ const Admin = () => {
         <div className = 'Admin'>
             <Nav />
 
-                {/* <NewPost />
-                <Posted /> */}
-
+                {}
+                <button>Accept</button>
+                <button>Decline</button>
             <Footer />
         </div>
     )

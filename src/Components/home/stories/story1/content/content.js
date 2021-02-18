@@ -4,7 +4,19 @@ import './content.css';
 
 const Content = () => {
 
+    const [readMore, setReadMore] = React.useState(false);
 
+    const linkName = readMore? 'Read More...' : 'Read Less...';
+
+    const extraContent = <div>
+        <p>
+            Na so I see am oo Tunde.Na so I see am oo Tunde.
+            Na so I see am oo Tunde.Na so I see am oo Tunde.
+            Na so I see am oo Tunde.Na so I see am oo Tunde.
+            Na so I see am oo Tunde.Na so I see am oo Tunde.
+            Na so I see am oo Tunde.Na so I see am oo Tunde.
+        </p>
+    </div>
 
     return(
         <div className = 'Content'>
@@ -15,8 +27,9 @@ const Content = () => {
                 shouting, abusing me, punching his windscreen, banging on the steering. All the red flags went
                 up and i was very very angry and i was crying. i dont know where i got the strength from but
                 i calmly told him to stop the car or i would.
+                {readMore && extraContent}
             </p>
-            <button id = 'more'>See more...</button>
+            <button id = 'more' onClick = {() => setReadMore(!readMore) }>{ linkName }</button>
         </div>
     )
 }

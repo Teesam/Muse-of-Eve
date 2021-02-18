@@ -6,11 +6,11 @@ import Footer from '../../../home/footer/footer';
 import { Link } from 'react-router-dom';
 
 const UploadContentFile = () => {
+    const [more, setMore] = React.useState(false)
 
-
-    const fileIncreaseHandler = e => {
-        
-    }
+    const moreInput = <div>
+        <input className = 'Filer' type = 'file' /> 
+    </div>
 
     return(
         <div className = 'Upload-content'>
@@ -18,7 +18,8 @@ const UploadContentFile = () => {
 
             <div id = 'upload-file-div'>
                 <input className  = 'Filer' type = 'file' />
-                <button onClick = {fileIncreaseHandler} id = 'file-more'>More Upload</button>
+                {more? moreInput : null}
+                <button onClick = { () => setMore(!more)} id = 'file-more'>More Upload</button>
                 <Link to = '/uploaddone' id = 'upload-content-btn'>Next</Link>
             </div>
             
