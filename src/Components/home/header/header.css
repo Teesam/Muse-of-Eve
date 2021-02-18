@@ -26,3 +26,40 @@
     top: 50%;
     right: 5%;
 }
+
+
+
+
+
+
+@media only screen and (max-width: 490px){
+    .Header{
+        position: relative;
+     }
+    
+    #header{
+        width: 100vw;
+        height: auto;
+        opacity: .8;
+        filter: grayscale(1);
+    }
+    
+    .Header-text{
+        font-family: 'playfair display', sans-serif;
+        color: white;
+        font-size: 1.5rem;
+        position: absolute;
+        top: 30%;
+        right: 30%;
+    }
+    
+    .Header-text-p{
+        font-family: 'playfair display', sans-serif;
+        color: white;
+        font-size: .7rem;
+        position: absolute;
+        top: 50%;
+        right: 30%;
+    }
+    
+}

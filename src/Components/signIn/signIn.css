@@ -45,3 +45,59 @@
 #signIn-header{
     margin-bottom: 5rem;
 }
+
+
+
+
+
+@media only screen and (max-width: 490px){
+    .SignIn{
+        min-height: 100vh;
+        font-family: 'nunito';
+    }
+    
+    .SignIn-btn{
+        padding: .5rem 1rem;
+        color: white;
+        background-color: rgb(158, 121, 149);
+        border: none;
+        border-radius: 5px;
+        margin-top: 7rem;
+        transition: .2s;
+    }
+    
+    .SignIn-btn:hover{
+        color: rgb(97, 70, 90);
+        background-color: rgb(247, 196, 234);
+    }
+    
+    #signIn-input{
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        margin-top: .5rem;
+        box-shadow: 0px 5px 15px 0px grey;
+        border-radius: 10px;
+        width: 80%;
+    }
+    
+    #signIn-input:focus{
+        border: 1px solid red;
+    }
+    
+    #signIn-form{
+        margin: auto;
+        margin-bottom: 13rem;
+        margin-top: 5rem;
+        text-align: center;
+    }
+    
+    .SignIn-header-div{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    #signIn-header{
+        margin-bottom: 5rem;
+    }
+    
+}

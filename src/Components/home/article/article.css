@@ -50,3 +50,62 @@
 .Date{
     margin-left: .5rem;
 }
+
+
+
+
+@media only screen and (max-width: 490px){
+    .Article{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .Article-title{
+        font-family: 'nunito';
+        font-weight: bolder;
+        width: 60%;
+        margin: 0 auto;
+        margin-top: 5rem;
+        text-align: start;
+    
+    }
+    
+    .Article-content{
+        font-family: 'nunito';
+        width: 90%;
+        text-align: left;
+        margin: 0 auto;
+        margin-top: 2rem;
+        line-height: 2rem;
+    }
+    
+    #loader{
+        color: rgb(84, 169, 196);
+        text-align: flex-start;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    #loader:hover{
+        color: red;
+    }
+    
+    .Article-info{
+        display: flex;
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 3rem;
+        justify-content: flex-end;
+        color: rgb(136, 132, 132);
+        margin-bottom: 2rem;
+    }
+    
+    .Author{
+        color: black;
+        margin: 0 2rem;
+    }
+    
+    .Date{
+        margin-left: .5rem;
+    }
+}
