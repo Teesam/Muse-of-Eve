@@ -34,11 +34,11 @@ const Article = () => {
                 <h6 className = 'Date'>20 May 2020</h6>
             </div>
 
-            <Link href = '' id= 'article-comment'>
+            <Link to = '' id= 'article-comment'>
                 <i className="far fa-comment-dots"></i>
             </Link>
 
-            <a href = '#' id = 'loader'>Load all articles.</a>
+            <Link to = ' ' id = 'loader'>Load all articles.</Link>
 
             <Pagination />
             

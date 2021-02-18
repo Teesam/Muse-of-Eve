@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react'
+import React, { useState} from 'react'
 import './video.css';
 import vid from '../../../Assets/video.mp4';
 import vid2 from '../../../Assets/videoplayback.mp4';
