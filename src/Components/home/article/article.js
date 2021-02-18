@@ -38,7 +38,7 @@ const Article = () => {
                 <i className="far fa-comment-dots"></i>
             </Link>
 
-            <a href = '' id = 'loader'>Load all articles.</a>
+            <a href = '#' id = 'loader'>Load all articles.</a>
 
             <Pagination />
             
